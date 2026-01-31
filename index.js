@@ -7,10 +7,23 @@ const myPromise = new Promise((resolve, reject) => {
     }   
 });
 
-myPromise
-    .then(() => {
-        console.log("Success: " + "Student has passed the exam.");
-    })
-    .catch((error) => {
-        console.log("Error: " + error);
-    });
+
+// myPromise
+//     .then(() => {
+//         console.log("Success: " + "Student has passed the exam.");
+//     })
+//     .catch((error) => {
+//         console.log("Error: " + error);
+//     });
+
+//     const f1 = async() => {
+//         try {
+//              const msg = await myPromise;
+//         console.log("Message: " + msg);
+            
+//         } catch (error) {
+//             console.log("Error: " + error);
+//         }
+       
+//     }
+//     f1();
